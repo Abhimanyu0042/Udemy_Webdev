@@ -131,6 +131,7 @@ li{
 .explore-pythonbtn{
     padding: 1rem 1rem;
     border: 1px solid black;
+    font-size: medium;
     font-weight: bold;
     background-color: white;
     cursor: pointer;
