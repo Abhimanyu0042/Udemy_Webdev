@@ -209,15 +209,16 @@ li{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 30px;
+    /* gap: 30px; */
+    justify-content: space-around;
     font-weight: bold;
 }
 .top-categories-items{
-    width: 300px;
-    overflow: hidden;
+    /* width: 300px;
+    overflow: hidden; */
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    padding-bottom: 1rem;
 }
 
 .top-categories-items figure :hover{
