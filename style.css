@@ -12,7 +12,7 @@ li{
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    width: 99vw;
+    width: 100%;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .navigation-bar{
@@ -31,6 +31,7 @@ li{
     align-items: center;
     gap: 20px;
     background-color: white;
+    padding-inline: 1rem;
 }
 .navigation-bar li{
     white-space: nowrap;
