@@ -11,16 +11,17 @@
 <body>
     <div class="body-container">
         <div class="navigation-bar">
+            <li class="triple-line"><i class="fa-solid fa-bars"></i></li>
 
                 <li><img src="logo-udemy.png" alt="udemy"></li>
-                <li>Categories</li>
-                <li class="search"><input type="text" placeholder="Search for anything" class="search-bar" name="search"></li>
-                <li>Udemy Business</li>
-                <li>Teach on Udemy</li>
-                <li class="icon-nav"><i class="fa-solid fa-cart-shopping"></i></li>
+                <li class="Hide-navkeys">Categories</li>
+                <li class="search Hide-navkeys"><input type="text" placeholder="Search for anything" class="search-bar" name="search"></li>
+                <li class="Hide-navkeys">Udemy Business</li>
+                <li class="Hide-navkeys">Teach on Udemy</li>
+                <li class="icon-nav Hide-navkeys"><i class="fa-solid fa-cart-shopping"></i></li>
                 <li><div class="nav-buttons">
-                    <button>Log in</button>
-                    <button style="color: white; background-color:black; ">Sign Up</button>
+                    <button class="Hide-navkeys">Log in</button>
+                    <button class="Hide-navkeys" style="color: white; background-color:black; ">Sign Up</button>
                     <button class="icon-nav" style="padding-inline: .4rem;"><i class="fa-solid fa-globe"></i></button>
                 </div></li>
         </div>
@@ -41,7 +42,7 @@
                     <li>Javascript</li>
                     <li>Data Science</li>
                     <li>AWS Certification</li>
-                    <li>Drawing</li>
+                    <li class="Hide-navkeys">Drawing</li>
                 </div>
                 <div class="python-course">
                     <h2>Expand your career opportunities with Python</h2>
@@ -224,7 +225,7 @@
                             <li><p class="list-item-content">Machine Learning</p>
                                 <p class="list-item-students">7,070,015 students</p>
                             </li>
-                            <button class="explore-pythonbtn">Explore more topics</button>
+                            <button class="explore-pythonbtn Hide-navkeys">Explore more topics</button>
 
                         </div>
 
@@ -299,8 +300,8 @@
             </div>
         </div>
         <div class="in-container-1">
-            <div class="become-instructor">
-                <div class="instructor-content">
+            <div class="become-instructor udemy-business">
+                <div class="instructor-content udemy-business1">
                     <img src="https://www.udemy.com/staticx/udemy/images/v7/logo-ub.svg" width="200px" alt="">
                     <p>Get unlimited access to 19,000+ of Udemy’s top courses for your team. Learn and improve skills across business, tech, design, and more.</p>
                     <button style="color: white; background-color:black; "> Get Udemy Business</button>
